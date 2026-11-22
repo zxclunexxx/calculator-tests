@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{ED3D5C3E-6567-5546-A19A-8225A64C2A56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application sources">
+      <UniqueIdentifier>{7EBCE196-CB89-5A2B-AAA3-7558EED4F27A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{013DEEA9-798C-5BC8-BA80-2B329067E0E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CalculationTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App\src\input.cpp">
+      <Filter>Application sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App\src\calculation.cpp">
+      <Filter>Application sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App\src\output.cpp">
+      <Filter>Application sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\App\include\input.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App\include\calculation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App\include\output.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
